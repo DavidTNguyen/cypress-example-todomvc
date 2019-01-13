@@ -19,9 +19,9 @@
 // import "./defaults"
 
 // Alternatively you can use CommonJS syntax:
-require('./commands')
-require('./defaults')
+require('./commands');
+require('./defaults');
 
 // Make it dark
-require('cypress-dark')
+require('cypress-dark');
 
