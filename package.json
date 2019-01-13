@@ -5,7 +5,7 @@
     "cypress:verify": "cypress verify",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "cypress:run:record": "cypress run --record",
+    "cypress:run:record": "cypress run --record --key cff2f88c-aa2d-41e5-bec5-deec09ad579f",
     "cypress:run:chrome": "cypress run --browser chrome",
     "cypress:run:headed": "cypress run --headed",
     "start": "http-server -p 8888 -c-1",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "cypress": "3.1.4",
+    "cypress-dark": "1.7.7",
     "eslint": "5.12.0",
     "eslint-plugin-cypress-dev": "2.0.0",
     "eslint-plugin-mocha": "5.2.1",
